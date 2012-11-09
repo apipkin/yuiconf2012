@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sizer Tests</title>
+<script type="text/javascript" src="../../../../build/yui/yui.js"></script>
+</head>
+
+<body class="yui3-skin-sam">
+<h1>Sizer Tests</h1>
+
+<div id="log"></div>
+
+<script type="text/javascript">
+YUI({
+    coverage: ['sizer'],
+    filter: (window.location.search.match(/[?&]filter=([^&]+)/) || [])[1] || 'raw',
+    combine: false,
+    modules: {
+        'sizer-tests': {
+            fullpath: './assets/sizer-tests.js',
+            requires: [ 'test', 'dump', 'gallery-sizer' ]
+        }
+    }
+}).use("test-console", 'sizer-tests', function(Y) {
+
+    (new Y.Test.Console()).render('#log');
+
+    Y.Test.Runner.setName('Sizer');
+    Y.Test.Runner.run();
+});
+</script>
+</body>
+</html>

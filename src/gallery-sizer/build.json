@@ -1,0 +1,11 @@
+{
+    "name": "gallery-sizer",
+    "builds": {
+        "gallery-sizer": {
+            "jsfiles": [
+                "sizer.js"
+            ]
+        }
+    }
+}
+
