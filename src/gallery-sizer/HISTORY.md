@@ -1,4 +1,0 @@
-SIZER
-=====
-
-Initial Release
