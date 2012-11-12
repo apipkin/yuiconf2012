@@ -1,7 +1,0 @@
-{
-    "gallery-js-xxx": {
-        "requires": [
-            "yui-base"
-        ]
-    }
-}
