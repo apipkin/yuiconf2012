@@ -1,0 +1,19 @@
+{
+    "name"       : "gallery-sizer",
+    "displayName": "Gallery: gallery-sizer",
+    "description": "Fun placeholder resize utility.",
+    "author"     : [ "apipkin" ],
+
+    "tags": [ "gallery", "widget" ],
+
+    "examples": [
+        {
+            "name"       : "sizer-simple",
+            "displayName": "Simple Example",
+            "description": "Demonstrates the use of slider with a image placeholder service.",
+            "modules"    : ["sizer"],
+            "tags"       : ["sizer", "simple"]
+        }
+    ]
+
+}

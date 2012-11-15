@@ -1,0 +1,10 @@
+{
+    "gallery-sizer": {
+        "requires": [
+            "widget",
+            "base-build",
+            "resizer"
+        ],
+        "skinnable": true
+    }
+}

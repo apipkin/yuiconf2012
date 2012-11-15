@@ -1,0 +1,30 @@
+<div class="intro">
+    <p>{{description}}</p>
+</div>
+
+<div id="demo" class="example">
+    <style>
+    {{>simple-source-css}}
+    </style>
+
+    {{>simple-source-html}}
+
+    <script>
+    YUI().use('gallery-sizer', function(Y){
+        {{>simple-start-js}}
+    });
+    </script>
+</div>
+
+
+<h2 id="source">Full Source</h2>
+<p>Because we have our skin in place and our logic is completely contained in our module. We don't need to do much else but instantiate the Widget.</p>
+```
+YUI().use('gallery-sizer', function(Y){
+{{>simple-start-js}}}
+});
+```
+<p>However, we do add a little bit of styling to our example area to help the demo.</p>
+```
+{{>simple-source-css}}
+```
