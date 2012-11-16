@@ -3,7 +3,7 @@
         "requires": [
             "widget",
             "base-build",
-            "resizer"
+            "resize"
         ],
         "skinnable": true
     }
