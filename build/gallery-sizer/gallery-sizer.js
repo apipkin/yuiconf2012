@@ -8,7 +8,7 @@ Demonstrates the use of Resizer and image placeholder services.
 @class Sizer
 @since 0.1
 **/
-Y.Sizer = Y.Base.create('gallery-sizer', Y.Widget, [], {
+Y.Sizer = Y.Base.create('sizer', Y.Widget, [], {
 
     /**
     Creates image and text nodes and calls _makeResize
@@ -273,4 +273,4 @@ Y.Sizer = Y.Base.create('gallery-sizer', Y.Widget, [], {
     }
 });
 
-}, '@VERSION@', {"requires": ["widget", "base-build", "resizer"], "skinnable": true});
+}, '@VERSION@', {"requires": ["widget", "base-build", "resize"], "skinnable": true});
